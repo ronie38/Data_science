@@ -1,6 +1,14 @@
 import streamlit as st
 import numpy as np
 import pickle
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
+from sklearn.svm import SVR
+from sklearn.ensemble import GradientBoostingRegressor
+from xgboost import XGBRegressor
+from lightgbm import LGBMRegressor
+from catboost import CatBoostRegressor
+from sklearn.metrics import mean_squared_error, r2_score
 
 
 pickle_in = open("model_final.pkl","rb")
