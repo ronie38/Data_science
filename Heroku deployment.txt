@@ -1,0 +1,6 @@
+1. Procfile changes
+	Search for how to create a procfile
+
+
+
+2. setup.sh
